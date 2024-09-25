@@ -18,6 +18,7 @@ kotlin = "2.0.20"
 coroutinesVersion = "1.8.1"
 dateTimeVersion = "0.6.1"
 koin = "4.0.0"
+koinComposeViewmodel = "4.0.0"
 sqlDelight = "2.0.2"
 lifecycleViewmodelCompose = "2.8.6"
 material3 = "1.3.0"
@@ -38,7 +39,11 @@ androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle
 
 android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqlDelight" }
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
+koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koinComposeViewmodel" }
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koinComposeViewmodel" }
+
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutinesVersion" }
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "dateTimeVersion" }
 native-driver = { module = "app.cash.sqldelight:native-driver", version.ref = "sqlDelight" }
